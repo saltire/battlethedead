@@ -43,6 +43,7 @@ public class MonsterScript : MonoBehaviour {
 	}
 
 	public bool fireAtMonster(int x, int y) {
+		Debug.Log("Firing at " + gameObject + " " + (int)((x + 0.5f - transform.localPosition.x) * ppu) + " " + (int)((9.5f - y - transform.localPosition.y) * ppu));
 		Color pixel = hitmap.GetPixel(
 			(int)((x + 0.5f - transform.localPosition.x) * ppu),
 			(int)((9.5f - y - transform.localPosition.y) * ppu));
