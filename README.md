@@ -1,6 +1,8 @@
 # Battle the Dead
 A spooky rail shooter where you aim with a Battleship grid.
 
+![Battle the Dead](/title.png)
+
 This was a last-day crunch for Ludum Dare 41. The theme: Combine 2 Incompatible Genres.
 
 I got in maybe eight hours of work on it. Very, very unfinished! 😜
